@@ -17,7 +17,7 @@ app.get("/", (request, response) => {
 });
 
  app.get("/ok", (request, response) => {
-   response.sendFile(__dirname + "/gaguna.contoh.html");
+   response.sendFile(__dirname + "/gaguna/contoh.html");
    response.sendStatus(200)
  })
 
@@ -95,9 +95,9 @@ app.get("/dreams", (request, response) => {
   response.json(dreams);
 })
 
-app.get("/.well-known/brave-rewards-verification.txt", (request, response) => {
+app.get("/.well-known/discord", (request, response) => {
   // express helps us take JS objects and send them as JSON
-  response.sendFile(__dirname + "/handler/brave.txt");
+  response.sendFile(__dirname + "/handler/dc.txt");
 })
 
 
@@ -108,6 +108,5 @@ const listener =
   console.log("Your app is listening on port " + listener.address().port);
 } );
 setInterval(() => {
-  http.get(`http://farisdaffa.dev/ok`);
-  http.get(`http://faris0520g.glitch.me/ok`);
-}, 25000); 
+  http.get(`http://parriz.repl.co/ok`);
+}, 20000); 

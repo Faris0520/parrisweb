@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
-Domain: farisdaffa.dev
-Token: 8463c06cd8387aaf58c5cbb59e97ff6d2b78a41717acbbb2eebdf71b3bf783e9
+Domain: parriz.repl.co
+Token: 2f3c3015b8619927263f139e0ca12ee70e63a0eef951466bd59b8f5e6a88a831
