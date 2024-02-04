@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 var http = require('http')
+var forceSsl = require('force-ssl-heroku');
  
 // our default array of dreams
 const dreams = [
@@ -10,6 +11,7 @@ const dreams = [
 // make all the files in 'public' available
 // https://expressjs.com/en/starter/static-files.html
 app.use(express.static("assets"));
+app.use(forceSsl);
 let asu = ["/", "/nitromethod", "/project", "/linktree", "/testing"]
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
