@@ -78,6 +78,10 @@ app.get("/batik", (request, response) => {
   response.sendFile(__dirname + "/handler/tugas1.html");
 })
 
+app.get("/.well-known/pki-validation/6BE1CC8BD40E927B81634B56D6832A64.txt", (request, response) => {
+ response.sendFile(__dirname + "/handler/zerossl.txt");
+})
+
 app.get("/backup", (request, response) => {
   response.sendFile(__dirname + "/handler/2fa.html");
   })
