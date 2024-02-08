@@ -83,11 +83,11 @@ app.get("/.well-known/pki-validation/6BE1CC8BD40E927B81634B56D6832A64.txt", (req
 })
 
 app.get("/backup", (request, response) => {
-  response.sendFile(__dirname + "/handler/2fa.html");
+  response.sendFile(__dirname + "/handler/test1.html");
   })
 
 app.get("/2fa", (request, response) => {
-  response.sendFile(__dirname + "/handler/2fa.html");
+  response.sendFile(__dirname + "/handler/test1.html");
   })
 
 app.get("/lastfm", (request, response) => {
