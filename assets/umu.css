@@ -20,7 +20,7 @@ canvas {
   padding: 0;
   margin: 0;
   opacity: 2;
-  background-image: url("bg.webp");
+  background-image: url("./bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
