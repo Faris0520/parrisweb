@@ -12,7 +12,7 @@ const dreams = [
 // https://expressjs.com/en/starter/static-files.html
 app.use(express.static("assets"));
 app.use(forceSsl);
-let asu = ["/", "/nitromethod", "/project", "/linktree", "/testing"]
+let hndlr = ["/", "/nitromethod", "/project", "/linktree", "/testing"]
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/handler/home.html");
