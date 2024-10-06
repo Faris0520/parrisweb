@@ -43,8 +43,8 @@ app.get("/gamew", (request, response) => {
   response.sendFile(__dirname + "/misc/gamew.html");
 })
 
-app.get("/nitromethod", (request, response) => {
-  response.sendFile(__dirname + "/handler/nitromethod.html")
+app.get("/nitro", (request, response) => {
+  response.sendFile(__dirname + "/misc/nitromethod.html")
 })
 /*
 app.use(function(req, res, next) {
@@ -83,15 +83,15 @@ app.get("/.well-known/pki-validation/6BE1CC8BD40E927B81634B56D6832A64.txt", (req
 })
 
 app.get("/backup", (request, response) => {
-  response.sendFile(__dirname + "/handler/test1.html");
+  response.sendFile(__dirname + "/misc/test1.html");
   })
 
 app.get("/2fa", (request, response) => {
-  response.sendFile(__dirname + "/handler/test1.html");
+  response.sendFile(__dirname + "/misc/test1.html");
   })
 
 app.get("/lastfm", (request, response) => {
-  response.sendFile(__dirname +"/handler/lastfm.html");
+  response.sendFile(__dirname +"/misc/lastfm.html");
 });
 
 
@@ -114,5 +114,5 @@ const listener =
   console.log("Your app is listening on port " + listener.address().port);
 } );
 setInterval(() => {
-  http.get(`http://parriz.repl.co/ok`);
+  http.get(`http://farisdaffa.dev/ok`);
 }, 20000); 
