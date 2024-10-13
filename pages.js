@@ -114,5 +114,5 @@ const listener =
   console.log("Your app is listening on port " + listener.address().port);
 } );
 setInterval(() => {
-  http.get(`http://farisdaffa.dev/ok`);
+  http.get(`http://farisdaffa.id/ok`);
 }, 20000); 
