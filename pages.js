@@ -107,10 +107,3 @@ app.get("/.well-known/discord", (request, response) => {
 
 
 // listen for requests :)
-const listener = 
-      app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
-} );
-setInterval(() => {
-  http.get(`http://farisdaffa.id/ok`);
-}, 20000); 
